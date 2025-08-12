@@ -1,4 +1,4 @@
-# NETFLIX-SIGNATURE-KILL — V9.22.1 (Build 3 62948)
+# NETFLIX-APP-SIGNATURE-KILL/BYPASS — V9.22.1 (Build 3 62948)
 
 **NETFLIX LATEST VERSIONS 2025 — SIGNATURE KILL PROCESS & METHOD**
 
@@ -16,8 +16,9 @@ com.netflix.mediaclient.LoaderModule$provideLoaderInit$1$onInit$1
 ```
 
 
+No automated tools, no hooking frameworks — **pure manual reverse engineering**. 😆
 
-No automated tools, no hooking frameworks — **pure manual reverse engineering**.
+*Most just try to kill signatures using MT Manager, NP Manager, or Lucky Patcher automatically — but that only works on simpler apps.*
 
 ---
 
