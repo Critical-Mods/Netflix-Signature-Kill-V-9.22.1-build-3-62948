@@ -40,12 +40,20 @@ com.netflix.mediaclient.LoaderModule$provideLoaderInit$1$onInit$1
 ---
 
 ## ⚠️ Disclaimer
-This project is provided **strictly for educational and research purposes only**.  
-It is **not intended** to promote, assist, or encourage:
-- Piracy
-- Unauthorized access
-- Violation of Netflix’s Terms of Service
 
-Modifying or sharing modded Netflix APKs **may violate laws**, result in **account bans**, or cause **security risks**.  
-The author **does not support or endorse misuse** and assumes **no liability** for any actions taken using this information.  
-**By using this content, you agree to comply with all applicable laws and terms.**
+This is a **research demonstration** intended solely for academic discussion and cybersecurity education.  
+It is **not** a tool, service, or product for bypassing Netflix security in any operational environment.
+
+Netflix (and any related entity):  
+This content does not contain or distribute any Netflix-owned code, keys, credentials, or copyrighted material.  
+It is an independent analysis based and reverse engineering principles permitted under fair use and lawful security research exemptions.
+
+**The author:**
+- Does **not** provide any functional APKs, patches, or tools that facilitate unauthorized access to Netflix accounts.
+- Publishes this solely for developers, analysts, and security researchers interested in understanding app signature verification and protection mechanisms.
+
+This repository demonstrates techniques to modify or bypass signature verification within the Netflix app for educational and research purposes only.
+
+Any use of these concepts to circumvent Netflix’s security or terms of service **without explicit permission** may violate laws and agreements, and is solely the responsibility of the user.
+
+By reading or accessing this material, **you agree** to use it responsibly and in compliance with all applicable laws.
