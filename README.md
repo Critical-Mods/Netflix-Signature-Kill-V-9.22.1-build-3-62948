@@ -7,16 +7,15 @@
 ## 📌 Overview
 **This is a Proof-of-Concept for *educational purposes only*!**  
 This post demonstrates how to manually bypass signature verification in the **Netflix Android app**  
-(**Version 9.22.1 build 3 62948 — July 2025**).
-
-It is aimed at developers and security researchers who want to explore Android app protection mechanisms such as **DexGuard**.  
+(**Version 9.22.1 build 3 62948 — July 2025 Updates**).
+ 
 We are targeting the class:
 
+```
 com.netflix.mediaclient.LoaderModule$provideLoaderInit$1$onInit$1
+```
 
-markdown
-Copy
-Edit
+
 
 No automated tools, no hooking frameworks — **pure manual reverse engineering**.
 
@@ -24,17 +23,13 @@ No automated tools, no hooking frameworks — **pure manual reverse engineering*
 
 ## 📄 Details
 - **Version Used:** `Netflix 9.22.1 build 3 62948` *(Latest — July 2025)*
-- **Method:** Manual signature kill & bypass — **no auto-killing / hooking tools**
 - **Compatibility:** Works on **all Netflix versions** as of July 2025  
   *(Older versions may require tweaks, newer ones might too!)*
 - **Target Class:**  
 com.netflix.mediaclient.LoaderModule$provideLoaderInit$1$onInit$1
 
-markdown
-Copy
-Edit
 - **Tutorial:** [Watch here](https://streamable.com/q5b85o) *(Use USA VPN if video won’t load)*
-- **Author:** `@criticalmodder` *(Telegram)*
+- **Modder:** `@criticalmodder` *(Telegram)*
 
 ---
 
