@@ -1,34 +1,56 @@
-NETFLIX-SIGNATURE-KILL-V-9.22.1-BUILD-3-62948
+# NETFLIX-SIGNATURE-KILL — V9.22.1 (Build 3 62948)
 
-NETFLIX LATEST VERSIONS 2025 SIGNATURE KILL PROCESS AND METHOD!!!
+**NETFLIX LATEST VERSIONS 2025 — SIGNATURE KILL PROCESS & METHOD**
 
+---
 
+## 📌 Overview
+**This is a Proof-of-Concept for *educational purposes only*!**  
+This post demonstrates how to manually bypass signature verification in the **Netflix Android app**  
+(**Version 9.22.1 build 3 62948 — July 2025**).
 
+It is aimed at developers and security researchers who want to explore Android app protection mechanisms such as **DexGuard**.  
+We are targeting the class:
 
-OVERVIEW
-THIS IS A PROOF-OF-CONCEPT FOR EDUCATION ONLY!!!
-This post shows how to manually bypass signature verification in Netflix Android app (VERSION 9.22.1 build 3 62948, July 2025). It’s for devs and security nerds who wanna dig into Android app protections like DexGuard! We’re targeting the class com.netflix.mediaclient.LoaderModule$provideLoaderInit$1$onInit$1 with NO automated tools or hooks. Pure manual reverse engineering, baby!!!
+com.netflix.mediaclient.LoaderModule$provideLoaderInit$1$onInit$1
 
+markdown
+Copy
+Edit
 
+No automated tools, no hooking frameworks — **pure manual reverse engineering**.
 
+---
 
-DETAILS
-VERSION USED: NETFLIX 9.22.1 build 3 62948 (LATEST JULY 2025!!!)
-METHOD: Manual signature kill and bypass, NO AUTO KILLING/HOOK TOOLS!!!
-COMPATIBILITY: Works on ALL Netflix versions from July 2025!!! Older versions might need tweaks, newer ones might too!!!
-TARGET CLASS: com.netflix.mediaclient.LoaderModule$provideLoaderInit$1$onInit$1
-TUTORIAL: Check the video guide at https://streamable.com/q5b85o!!! USE USA VPN IF VIDEO WON’T LOAD!!!
-AUTHOR: @criticalmodder (Telegram)
+## 📄 Details
+- **Version Used:** `Netflix 9.22.1 build 3 62948` *(Latest — July 2025)*
+- **Method:** Manual signature kill & bypass — **no auto-killing / hooking tools**
+- **Compatibility:** Works on **all Netflix versions** as of July 2025  
+  *(Older versions may require tweaks, newer ones might too!)*
+- **Target Class:**  
+com.netflix.mediaclient.LoaderModule$provideLoaderInit$1$onInit$1
 
+markdown
+Copy
+Edit
+- **Tutorial:** [Watch here](https://streamable.com/q5b85o) *(Use USA VPN if video won’t load)*
+- **Author:** `@criticalmodder` *(Telegram)*
 
+---
 
+## 🎥 Watch Tutorial Now
+[**▶ Click to Watch the Video**](https://streamable.com/q5b85o)  
+*(Use a USA VPN if it does not load.)*
 
-WATCH TUTORIAL NOW!!!
-https://streamable.com/q5b85o
+---
 
+## ⚠️ Disclaimer
+This project is provided **strictly for educational and research purposes only**.  
+It is **not intended** to promote, assist, or encourage:
+- Piracy
+- Unauthorized access
+- Violation of Netflix’s Terms of Service
 
-
-
-DISCLAIMER
-THIS IS FOR EDUCATIONAL AND RESEARCH PURPOSES ONLY!!!
-This is to learn about Android app security and reverse engineering, NOT to promote piracy, unauthorized access, or breaking Netflix’s Terms of Service!!! Modifying or sharing modded Netflix APKs can violate laws, get your account banned, or cause security issues!!! Use this at your own risk!!! I DO NOT support or endorse misuse, and you’re responsible for following all laws and terms!!!
+Modifying or sharing modded Netflix APKs **may violate laws**, result in **account bans**, or cause **security risks**.  
+The author **does not support or endorse misuse** and assumes **no liability** for any actions taken using this information.  
+**By using this content, you agree to comply with all applicable laws and terms.**
